@@ -68,7 +68,7 @@ The best case key value for binary search is the middlemost value. Binary search
 - [ ] 9. The theoretical worst-case running time of linear search is $O(n)$ and binary search is $O(log_2(n))$. Do these theoretical running times match your empirical results? Why or why not?
 
 **TODO: your answer goes here**
-Yes, the theoretical running times do match our empirical results; clearly, binary search O(log_2(n)) is more efficient for larger input values n than linear search O(n). 
+Yes, the theoretical running times do match our empirical results; clearly, binary search O(log_2(n)) is more efficient for larger input values n than linear search O(n) according to the table in Question #8. 
 
 
 - [ ] 10. Binary search assumes the input list is already sorted. Assume it takes $\Theta(n^2)$ time to sort a list of length $n$. Suppose you know ahead of time that you will search the same list $k$ times. 
